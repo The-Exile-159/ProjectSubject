@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Giao diện Profile</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!--Font Awesome CSS-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
+
+
+
+	<!-- Custom CSS -->
+	<link href="css/shop-homepage.css" rel="stylesheet">
+	<link href="css/my.css" rel="stylesheet">
+	<link href="css/profile.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="Index.html">
+					<i class="fa fa-home" aria-hidden="true"></i>
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="Profile.html">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span class="data-binding attr-text">Username</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="nav navbar-nav pull-right">
+					<li>
+                        <button type="button" onclick="go('Post.html')" class="btn btn-default navbar-btn">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        </button>
+                    </li>
+					<li>
+						<form class="navbar-form navbar-left">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Tìm kiếm...">
+								<span class="input-group-btn">
+        							<button class="btn btn-default" type="button">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</button>
+						      	</span>
+							</div>
+							<!-- /input-group -->
+						</form>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-bars" aria-hidden="true" style="font-size: 18px;"></i>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="Login.html"><i class="fa fa-sign-out" aria-hidden="true"></i> Đăng xuất</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Liên kết khác <i class="fa fa-cogs" aria-hidden="true"></i></a></li>
+                        </ul>
+					</li>
+
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+
+	<!-- Page Content -->
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-3 ">
+				<ul class="list-group" id="menu">
+					<li href="#" class="list-group-item menu1 active">
+						Thông báo chung
+					</li>
+				</ul>
+				<div class="list-group-item menu1 active no-search">
+					Danh sách môn học
+				</div>
+				<div style="padding: 0;" class="list-group-item menu1 no-search">
+					<div class="input-group">
+						<input type="text" class="form-control subject-input" placeholder="Tìm kiếm...">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button> 
+						</span>
+					</div>
+					<!-- /input-group -->
+				</div>
+				<ul class="list-group" id="subject-list" style="max-height: 250px; overflow-y: scroll;">
+					<li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+                    <li href="#" class="list-group-item menu1">
+                        <a href="/detail.html">Tên môn học</a>
+                    </li>
+				</ul>
+
+				<ul class="list-group" id="menu">
+					<li href="#" class="list-group-item menu1 active">
+						Tin nhắn
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="#">Username</a>
+					</li>
+				</ul>
+
+			</div>
+
+			<!-- Blog Post Content Column -->
+			<div class="col-lg-9">
+
+
+				<div id="my-profile-panel" class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">Username</h3>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-3 col-lg-3 " align="center"> 
+								<img alt="User Pic" src="image/User.png" class="img-circle img-responsive">							
+							</div>
+							<div class=" col-md-9 col-lg-9 ">
+								<table class="table table-user-information">
+									<tbody>
+										<tr>
+											<td>Họ tên:</td>
+											<td>Username</td>
+										</tr>
+										<tr>
+											<td>Mã số sinh viên:</td>
+											<td>13088888</td>
+										</tr>
+										<tr>
+											<td>Ngày sinh:</td>
+											<td>01/01/1900</td>
+										</tr>
+										<tr>
+											<td>Giới tính:</td>
+											<td>Nữ</td>
+										</tr>
+										<tr>
+											<td>Bậc đào tạo:</td>
+											<td>Đại học</td>
+										</tr>
+										<tr>
+											<td>Hình thức đào tạo:</td>
+											<td>Chính quy</td>
+										</tr>
+										<tr>
+											<td>Chương trình đào tạo:</td>
+											<td>Chuẩn</td>
+										</tr>
+										<tr>
+											<td>Khoa:</td>
+											<td>Công nghệ thông tin</td>
+										</tr>
+										<tr>
+											<td>Lớp khóa học:</td>
+											<td>QH2013</td>
+										</tr>
+										<tr>
+											<td>Quê quán:</td>
+											<td>Hà Nội</td>
+										</tr>
+										<tr>
+											<td>Email:</td>
+											<td>Username@gmail.com</td>
+										</tr>
+											<td>Điện thoại liên hệ:</td>
+											<td>+84-04-8888888<br></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="panel-footer">
+						<a data-original-title="Broadcast Message" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary" onclick="go('Chat.html')"><i class="glyphicon glyphicon-envelope"></i> Nhắn tin</a>
+						<span class="pull-right">
+                            <a id="edit-my-profile" data-original-title="Edit this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-edit"></i> Cập nhật thông tin</a>
+                        </span>
+					</div>
+
+				</div>
+
+				<div class="panel panel-primary" id="edit-my-profile-panel" style="display: none">
+					<div class="panel-heading">Thông tin tài khoản</div>
+					<div class="panel-body">
+						<form>
+							<div>
+								<label>Họ tên</label>
+							<input type="text" class="form-control" placeholder="Nhập họ tên" name="name" aria-describedby="basic-addon1">
+							</div>
+							<br>
+							<div>
+								<label>Mã số sinh viên</label>
+								<input type="text" class="form-control" placeholder="Nhập mã sinh viên" name="email" aria-describedby="basic-addon1">
+							</div>
+							<br>
+							<div>
+								<label>Ngày sinh</label>
+								<input type="text" class="form-control" placeholder="" name="email" aria-describedby="basic-addon1">
+							</div>
+							<br>
+							<div>
+								<label>Giới tính</label>
+								<select name="" id="" class="form-control">
+									<option value="">-- Chọn giới tính --</option>
+									<option value="">Nam</option>
+									<option value="">Nữ</option>
+									<option value="">Khác</option>
+								</select>
+							</div>
+							<br>
+							<div>
+								<label>Bậc đào tạo</label>
+								<select name="" id=""  class="form-control">
+									<option value="">-- Chọn bậc đào tạo --</option>
+									<option value="">Đại học</option>
+									<option value="">Cao học</option>
+									<option value="">Khác</option>
+								</select>							
+							</div>
+							<br>
+							<div>
+								<label>Hình thức đào tạo</label>
+								<select name="" id=""  class="form-control">
+									<option value="">-- Chọn hình thức đào tạo --</option>
+									<option value="">Chính quy</option>
+								</select>
+							</div>
+							<br>
+							<div>
+								<label>Chương tình đào tạo</label>
+								<select name="" id=""  class="form-control">
+									<option value="">-- Chọn chương trình đào tạo --</option>
+									<option value="">Chuẩn</option>
+									<option value="">Chất lượng cao</option>
+									<option value="">Nhiệm vụ chiến lược</option>
+								</select>
+							</div>
+							<br>
+							<div>
+								<label>Khoa</label>
+								<select name="" id=""  class="form-control">
+									<option value="">-- Chọn khoa --</option>
+									<option value="">Công nghệ thông tin</option>
+									<option value="">Hệ thống thông tin</option>
+									<option value="">Điện tử viễn thông</option>
+								</select>
+							</div>
+							<br>
+							<div>
+								<label>Lớp khóa học</label>
+								<select name="" id=""  class="form-control">
+									<option value="">-- Chọn lớp khóa học --</option>
+									<option value=""></option>
+									<option value=""></option>
+									<option value=""></option>
+								</select>
+							</div>
+							<div>
+								<label>Quê quán</label>
+								<input type="text" class="form-control" placeholder="Nhập quê quán" name="email" aria-describedby="basic-addon1">
+							</div>
+							<br>
+							<div>
+								<label>Email</label>
+								<input type="text" class="form-control" placeholder="Nhập email" name="email" aria-describedby="basic-addon1">
+							</div>
+							<br>
+							<div>
+								<label>Số điện thoại</label>
+								<input type="text" class="form-control" placeholder="Nhập số điên thoại" name="email" aria-describedby="basic-addon1">
+							</div>
+							<br>
+							<div>
+								<input type="checkbox" class="" name="checkpassword">
+								<label>Đổi mật khẩu</label>
+								<input type="password" class="form-control" name="password" aria-describedby="basic-addon1">
+							</div>
+							<br>
+							<div>
+								<label>Nhập lại mật khẩu</label>
+								<input type="password" class="form-control" name="passwordAgain" aria-describedby="basic-addon1">
+							</div>
+							<br>
+							<button id="submit-profile" type="button" class="btn btn-primary">Cập nhật</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- end Page Content -->
+
+	<!-- Footer -->
+	<hr>
+	<footer>
+		<div class="row">
+			<div class="col-md-12">
+				<p>Copyright &copy; Your Website 2017</p>
+			</div>
+		</div>
+	</footer>
+	<!-- end Footer -->
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/my.js"></script>
+
+</body>
+
+</html>

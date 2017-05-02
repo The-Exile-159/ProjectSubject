@@ -1,0 +1,94 @@
+.menu1 ul{
+	position: absolute;
+	z-index: 999;
+}
+
+.break{
+	clear: both;
+	height: 10px;
+	width: 100%;
+	margin:auto;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.break90{
+	clear: both;
+	height: 10px;
+	width: 90%;
+	margin:auto;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.space20{
+	height: 20px;
+	width: 100%;
+}
+
+
+.row-item{
+	padding-left:15px;
+}
+
+.border-left{
+	border-left: 1px solid #EEEEEE;
+}
+
+.border-right{
+	border-right: 1px solid #EEEEEE;
+}
+
+a{
+	color:black;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.myheader{
+	background-color: #337AB7;
+	color:white;
+}
+
+.clear{
+	clear:both;
+}
+
+
+
+/* remove gutter spacing outside */
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* only remove padding of middle columns */
+.row.no-gutter [class*='col-'],
+.row.no-gutter [class*='col-']{
+  padding-right:0;
+  padding-left:0;
+}
+
+.bg-purple{
+	background-color: #ABABAB;
+	color: white;
+}
+bg-purple a{
+	color: 
+}
+.btm-line{
+	border-bottom: 1px solid #E8E8E8;
+}
+.full-height{
+	height: 100%;
+}
+.bg-transparent{
+	background: transparent;
+}
+.no-after:after{
+	content: '';
+	display: none;
+}
+.col-xs-4{
+	
+}

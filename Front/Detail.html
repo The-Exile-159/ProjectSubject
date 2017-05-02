@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Giao diện bài viết</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Font Awesome CSS-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
+
+
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="Index.html">
+					<i class="fa fa-home" aria-hidden="true"></i>
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="Profile.html">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<span class="data-binding attr-text">Username</span>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="nav navbar-nav pull-right">
+					<li>
+                        <button type="button" onclick="go('Post.html')" class="btn btn-default navbar-btn">
+							<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+						</button>
+                    </li>
+					<li>
+						<form class="navbar-form navbar-left">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Tìm kiếm...">
+								<span class="input-group-btn">
+        							<button class="btn btn-default" type="button">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</button>
+						      	</span>
+							</div>
+							<!-- /input-group -->
+						</form>
+					</li>
+
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-bars" aria-hidden="true" style="font-size: 18px;"></i>
+						</a>
+						<ul class="dropdown-menu dropdown-menu-right">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Đăng xuất</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Liên kết khác <i class="fa fa-cogs" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</div>
+
+
+
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+
+            			<div class="col-md-3 ">
+				<ul class="list-group" id="menu">
+					<li href="#" class="list-group-item menu1 active">
+						Thông báo chung
+					</li>
+				</ul>
+				<div class="list-group-item menu1 active no-search">
+					Danh sách môn học
+				</div>
+				<div style="padding: 0;"  class="list-group-item menu1 no-search" >
+					<div class="input-group">
+						<input type="text" class="form-control subject-input" placeholder="Tìm kiếm...">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button> 
+						</span>
+					</div><!-- /input-group -->
+				</div>
+				<ul class="list-group" id="subject-list" style="max-height: 250px; overflow-y: scroll;">
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="/detail.html">Tên môn học</a>
+					</li>
+				</ul>
+
+				<ul class="list-group" id="menu">
+					<li href="#" class="list-group-item menu1 active">
+						Tin nhắn
+					</li>
+					<li href="#" class="list-group-item menu1">
+						<a href="#">Username</a>
+					</li>
+				</ul>
+
+			</div>
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-9">
+
+                <!-- Blog Post -->
+                <!-- Title -->
+                <h1>Một tuần trải nghiệm với máy ảnh Leica M10</h1>
+                <!-- Author -->
+                <p class="lead">by <a href="#">Username</a></p>
+               <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> Đăng vào May 02, 2017 at 1:00 AM</p>
+                <hr>
+               <p>
+               Leica là một thương hiệu máy ảnh đã trở thành huyền thoại bởi khi nhắc đến nó thì chúng ta sẽ liên tưởng ngay đến những chiếc máy ảnh đắt đỏ, những ống kính đắt tiền đến mức mà rất nhiều người trong cả cuộc đời mình có mơ cũng chưa dám sở hữu nó. Thật vậy, bản thân mình là người viết bài này cũng không nghĩ rằng sẽ có ngày mình có được cơ hội…
+               </p>
+               <hr>
+               <button class="btn btn-primary btn-lg"><i class="fa fa-download" aria-hidden="true"></i> Tải xuống</button>
+                <hr>
+
+                <!-- Blog Comments -->
+
+                <!-- Comments Form -->
+                <div class="well">
+                    <h4>Viết bình luận ...<span class="glyphicon glyphicon-pencil"></span></h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Gửi</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- Posted Comments -->
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Username 01
+                            <small>May 02, 2017 at 01:01 AM</small>
+                        </h4>
+                        Great !!!
+                    </div>
+                </div>
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Username 02
+                            <small>May 02, 2017 at 01:05 AM</small>
+                        </h4>
+                        Nicexừ :)
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- end Page Content -->
+
+    <!-- Footer -->
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Copyright &copy; Your Website 2017</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/my.js"></script>
+
+</body>
+
+</html>
